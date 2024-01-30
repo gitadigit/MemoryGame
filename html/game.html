@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoryGame</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/background-home.jpg">
+</head>
+
+<body id="game_body">
+    <div id="titel_game">
+        <p>Choose type of game:</p>
+    </div>
+    <div id="buttons_types">
+        <button class="button_type2" id="button_chars"onclick="chooseType(this)">chars</button>
+        <button class="button_type2" id="button_letters" onclick="chooseType(this)">letters</button>
+        <button class="button_type2" id="button_numbers" onclick="chooseType(this)">numbers</button>
+    </div>
+    <!-- טיימר -->
+    <div id="clock"> </div>
+    <div id="cards_container">
+        <!--תוכן הלוח הכרטיסים   -->
+    </div>
+    <img id="gameOverImg" src="../images/fail.jpg" alt="">
+    <img id="winImg" src="../images/win.jpg" alt="">
+    <button id="back" onclick="backHome()"> Home</button>
+
+
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
